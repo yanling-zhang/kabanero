@@ -14,6 +14,6 @@ public class ExampleEndpoint {
    @RequestMapping("/starter/hello")
    @ReadOperation
     public String example() {
-        return ":) self care baby :)";
+        return "self care baby :)";
     }
 }
